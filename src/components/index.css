@@ -1,0 +1,124 @@
+body {
+    background-image:url(https://images.unsplash.com/photo-1519452575417-564c1401ecc0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  }
+  .container{
+    margin: 30px auto;
+    max-height: fit-content;
+    max-width: fit-content;
+  }
+  .header{
+    max-width: fit-content;
+    max-height: 80%;
+    padding: 40px 0;
+    margin: 40px auto;
+    overflow: auto;
+    text-align: center;
+    font: 20px;
+    color:gold;
+    background: darkblue;
+    border-style: solid;
+    border-color: gold;
+  }
+
+  .basic{
+      max-width: 1100px;
+      max-height: 80%;
+      color: gold;
+      margin: 30px auto;
+      overflow: auto;
+      min-height: 300px;
+      text-align:left;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: 2em;
+      padding-bottom:15px;
+      margin-top:5em;
+      margin-left:10em;
+      margin-right: 10em;
+      border-style:solid;
+      background: darkblue;
+
+  }
+  .text{
+    display:block;
+    color: black;
+    width: auto;
+  }
+
+  .Navbar{
+      color:gold;
+  }
+
+  a{
+      color: gold;
+      padding: 10px;
+  }
+  .btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn:active {
+    transform: scale(0.98);
+  }
+  
+  .btn-block {
+    margin: 30px auto;
+    display: block;
+    width: auto;
+  }
+
+  .navbar__cart {
+    background: #fff;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    float:inline-end;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .navbar__cart:hover {
+    opacity: 0.75;
+  }
+  
+  .cart__title {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--dark-color);
+  }
+  
+  .cart__image {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  
+  .cart__counter {
+    height: 40px;
+    width: 40px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 50%;
+    color: var(--dark-color);
+    background: var(--light-color);
+    font-size: 14px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
